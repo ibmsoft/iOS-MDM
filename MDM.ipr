@@ -321,9 +321,8 @@
     <module2copyright />
   </component>
   <component name="DataSourceManagerImpl" format="xml" hash="3056469279">
-    <data-source source="LOCAL" name="mysql" product="MySQL" version="5.5.34" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="d84e03ff-6207-453c-9095-17610445326a">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
+    <data-source source="LOCAL" name="mysql" uuid="d84e03ff-6207-453c-9095-17610445326a">
+      <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/MDM</jdbc-url>
@@ -410,7 +409,6 @@
       <list>
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -542,6 +540,7 @@
       <module fileurl="file://$PROJECT_DIR$/core/MDM-core.iml" filepath="$PROJECT_DIR$/core/MDM-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/payload/MDM-payload.iml" filepath="$PROJECT_DIR$/payload/MDM-payload.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/MDM-web.iml" filepath="$PROJECT_DIR$/web/MDM-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plist/plist.iml" filepath="$PROJECT_DIR$/plist/plist.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" />
