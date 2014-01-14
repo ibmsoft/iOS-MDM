@@ -311,10 +311,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MDM" target="1.7" />
-      <module name="MDM-core" target="1.7" />
-      <module name="MDM-payload" target="1.7" />
-      <module name="MDM-web" target="1.7" />
+      <module name="MDM" target="1.6" />
+      <module name="MDM-core" target="1.6" />
+      <module name="MDM-payload" target="1.6" />
+      <module name="MDM-web" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="CopyrightManager" default="">

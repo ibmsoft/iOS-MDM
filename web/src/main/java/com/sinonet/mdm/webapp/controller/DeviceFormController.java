@@ -80,6 +80,24 @@ public class DeviceFormController extends BaseFormController {
         taskManager.save(task);
     }
     @ModelAttribute
+    @RequestMapping("/erasedevice")
+    public void erasedeviceCommand(HttpServletRequest request)
+    {
+
+        String id = request.getParameter("id");
+        Device device = deviceManager.get(new Long(id));
+        Message<String> message = MessageBuilder.withPayload("push")
+                .setHeader(ApnsMessageSender.APNS_DEVICE_TOKEN,Hex.encodeHexString(device.getToken().getToken())).setHeader(ApnsMessageSender.APNS_MDM_PUSHMAGIC, device.getToken().getPushMagic()).build();
+        log.warn(apnsMessageSender);
+        apnsMessageSender.sendMessage(message);
+        Task task = TaskFactory.createEraseDeviceCommandTask("123456");
+        task.setDevice(device);
+        log.debug(task);
+
+
+        taskManager.save(task);
+    }
+    @ModelAttribute
     @RequestMapping("/devicelock")
     public void devicelockCommand(HttpServletRequest request)
     {
@@ -91,6 +109,24 @@ public class DeviceFormController extends BaseFormController {
         log.warn(apnsMessageSender);
         apnsMessageSender.sendMessage(message);
         Task task = TaskFactory.createDeviceLockCommandTask("123456","is mdm lock!",null);
+        task.setDevice(device);
+        log.debug(task);
+
+
+        taskManager.save(task);
+    }
+    @ModelAttribute
+    @RequestMapping("/clearpasscode")
+    public void clearpasscodeCommand(HttpServletRequest request)
+    {
+
+        String id = request.getParameter("id");
+        Device device = deviceManager.get(new Long(id));
+        Message<String> message = MessageBuilder.withPayload("push")
+                .setHeader(ApnsMessageSender.APNS_DEVICE_TOKEN,Hex.encodeHexString(device.getToken().getToken())).setHeader(ApnsMessageSender.APNS_MDM_PUSHMAGIC, device.getToken().getPushMagic()).build();
+        log.warn(apnsMessageSender);
+        apnsMessageSender.sendMessage(message);
+        Task task = TaskFactory.createClearPasscodeeCommandTask(device.getToken().getUnlockToken());
         task.setDevice(device);
         log.debug(task);
 
@@ -178,7 +214,7 @@ public class DeviceFormController extends BaseFormController {
         log.warn(apnsMessageSender);
 
         apnsMessageSender.sendMessage(message);
-        Task task = TaskFactory.createRemoveProfileCommandTask("aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727");
+        Task task = TaskFactory.createRemoveProfileCommandTask("com.pansoft.mdm.profile");
         task.setDevice(device);
         log.debug(task);
         taskManager.save(task);

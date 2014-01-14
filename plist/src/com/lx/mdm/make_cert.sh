@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "step 1"
 openssl genrsa -des3 -out customerPrivateKey.pem 2048
 
@@ -5,14 +6,13 @@ echo "step 2"
 openssl req -new -key customerPrivateKey.pem -out customer.csr
 
 echo "step 3"
-echo "upload the encode_list "
 openssl req -inform pem -outform der -in customer.csr -out customer.der
 
 
 echo "step 4"
 echo "make the plist_encoded  use PlistUtils"
 echo "open https://identity.apple.com/pushcert "
-echo " upload the plist_encoded file ,and then download the apns-mdm.pem"
+echo "upload the plist_encoded file ,and then download the apns-mdm.pem"
 
 
 echo "step 5"

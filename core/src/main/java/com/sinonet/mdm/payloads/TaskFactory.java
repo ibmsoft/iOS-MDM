@@ -27,6 +27,32 @@ public class TaskFactory {
         task.setCommand(command.bytes());
         return task;
     }
+    public static Task createClearPasscodeeCommandTask(byte[] data)
+    {
+        String commandUUID = UUID.randomUUID().toString();
+        Task task = new Task();
+        task.setStatus("no");
+        task.setCommandUUID(commandUUID);
+        task.setName("ClearPasscode");
+        Command command = CommandFactory.createClearPasscodeCommand(data);
+        command.setCommandUUID(commandUUID);
+        command.execute();
+        task.setCommand(command.bytes());
+        return task;
+    }
+    public static Task createEraseDeviceCommandTask(String pin)
+    {
+        String commandUUID = UUID.randomUUID().toString();
+        Task task = new Task();
+        task.setStatus("no");
+        task.setCommandUUID(commandUUID);
+        task.setName("EraseDevice");
+        Command command = CommandFactory.createEraseDeviceCommand();
+        command.setCommandUUID(commandUUID);
+        command.execute();
+        task.setCommand(command.bytes());
+        return task;
+    }
     public static Task createDeviceLockCommandTask(String pin,String message,String phoneNumber)
     {
         String commandUUID = UUID.randomUUID().toString();

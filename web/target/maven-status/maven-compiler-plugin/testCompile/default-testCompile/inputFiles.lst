@@ -1,0 +1,14 @@
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/ApnsTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/BaseControllerTestCase.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/TaskControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/DeviceFormControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/filter/MockFilterChain.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/UpdatePasswordControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/UserFormControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/PasswordHintControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/TaskFormControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/DeviceControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/filter/LocaleFilterTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/SignupControllerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/listener/StartupListenerTest.java
+/develope/IOS/java/iOS-MDM/web/src/test/java/com/sinonet/mdm/webapp/controller/UserControllerTest.java
