@@ -56,6 +56,13 @@ public class CheckinDeviceController {
         this.taskManager = taskManager;
     }
     private transient final Log log = LogFactory.getLog(ReloadController.class);
+
+    /**
+     * 如果 mdm 配置文件设置了，移除时候检查，删除设备文件的时候会发送一个 messageType ＝ CheckOut ,可以根据这个进行设备状态的更新
+     * @param request
+     * @param response
+     * @throws Exception
+     */
     @RequestMapping(value = "/checkin",method = RequestMethod.PUT)
     public void handleCheckinRequest(HttpServletRequest request,HttpServletResponse response)
             throws Exception {

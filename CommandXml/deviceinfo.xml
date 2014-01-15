@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CommandUUID</key>
+        <string>7fd85f95-0aec-4a54-9a5b-3be1329466ea</string>
+        <key>QueryResponses</key>
+        <dict>
+            <key>AvailableDeviceCapacity</key>
+            <real>7.808124542236328</real>
+            <key>BatteryLevel</key>
+            <real>0.699999988079071</real>
+            <key>BluetoothMAC</key>
+            <string>f0:dc:e2:b5:e8:8d</string>
+            <key>BuildVersion</key>
+            <string>11B554a</string>
+            <key>CarrierSettingsVersion</key>
+            <string>15.5</string>
+            <key>CellularTechnology</key>
+            <integer>1</integer>
+            <key>CurrentMCC</key>
+            <string>460</string>
+            <key>CurrentMNC</key>
+            <string>01</string>
+            <key>DataRoamingEnabled</key>
+            <false/>
+            <key>DeviceCapacity</key>
+            <real>13.303985595703125</real>
+            <key>DeviceName</key>
+            <string>“DMSYTGY”的 iPhone</string>
+            <key>ICCID</key>
+            <string>8986 0111 6517 0412 9318</string>
+            <key>IMEI</key>
+            <string>01 313800 132401 4</string>
+            <key>Model</key>
+            <string>MD235CH</string>
+            <key>ModelName</key>
+            <string>iPhone</string>
+            <key>ModemFirmwareVersion</key>
+            <string>5.0.02</string>
+            <key>OSVersion</key>
+            <string>7.0.4</string>
+            <key>PhoneNumber</key>
+            <string>+8618660790218</string>
+            <key>ProductName</key>
+            <string>iPhone4,1</string>
+            <key>SIMCarrierNetwork</key>
+            <string>中国联通</string>
+            <key>SIMMCC</key>
+            <string>460</string>
+            <key>SIMMNC</key>
+            <string>01</string>
+            <key>SerialNumber</key>
+            <string>C35HPCUEDTC0</string>
+            <key>SubscriberMCC</key>
+            <string>460</string>
+            <key>SubscriberMNC</key>
+            <string>01</string>
+            <key>WiFiMAC</key>
+            <string>f0:dc:e2:b5:e8:8c</string>
+        </dict>
+        <key>Status</key>
+        <string>Acknowledged</string>
+        <key>UDID</key>
+        <string>825a3e09865acd224100928629db903a88f4cfc0</string>
+    </dict>
+</plist>

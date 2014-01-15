@@ -30,43 +30,40 @@ public class DeviceInformationCommand extends Command {
             }
             getCommand().put("Queries",array);
         } else {
-            NSArray queries = new NSArray(36);
-            queries.setValue(0,new NSString("AvailableDeviceCapacity"));
-            queries.setValue(1,new NSString("BluetoothMAC"));
+            NSArray queries = new NSArray(31);
+            queries.setValue(0,new NSString("DeviceName"));
+            queries.setValue(1,new NSString("OSVersion"));
             queries.setValue(2,new NSString("BuildVersion"));
-            queries.setValue(3,new NSString("CarrierSettingsVersion"));
-            queries.setValue(4,new NSString("CurrentCarrierNetwork"));
-            queries.setValue(5,new NSString("CurrentMCC"));
-            queries.setValue(6,new NSString("CurrentMNC"));
-            queries.setValue(7,new NSString("DataRoamingEnabled"));
-            queries.setValue(8,new NSString("DeviceCapacity"));
-            queries.setValue(9,new NSString("DeviceName"));
-            queries.setValue(10,new NSString("ICCID"));
+            queries.setValue(3,new NSString("ModelName"));
+            queries.setValue(4,new NSString("Model"));
+            queries.setValue(5,new NSString("ProductName"));
+            queries.setValue(6,new NSString("SerialNumber"));
+            queries.setValue(7,new NSString("DeviceCapacity"));
+            queries.setValue(8,new NSString("AvailableDeviceCapacity"));
+            queries.setValue(9,new NSString("BatteryLevel"));
+            queries.setValue(10,new NSString("CellularTechnology"));
             queries.setValue(11,new NSString("IMEI"));
-            queries.setValue(12,new NSString("IsRoaming"));
-            queries.setValue(13,new NSString("Model"));
-            queries.setValue(14,new NSString("ModelName"));
-            queries.setValue(15,new NSString("ModemFirmwareVersion"));
-            queries.setValue(16,new NSString("PhoneNumber"));
-            queries.setValue(17,new NSString("Product"));
-            queries.setValue(18,new NSString("ProductName"));
-            queries.setValue(19,new NSString("SIMCarrierNetwork"));
-            queries.setValue(20,new NSString("SIMMCC"));
-            queries.setValue(21,new NSString("SIMMNC"));
-            queries.setValue(22,new NSString("SerialNumber"));
-            queries.setValue(23,new NSString("UDID"));
-            queries.setValue(24,new NSString("WiFiMAC"));
-            queries.setValue(25,new NSString("UnlockToken"));
-            queries.setValue(26,new NSString("MEID"));
-            queries.setValue(27,new NSString("CellularTechnology"));
-            queries.setValue(28,new NSString("BatteryLevel"));
-            queries.setValue(29,new NSString("SubscriberCarrierNetwork"));
-            queries.setValue(30,new NSString("VoiceRoamingEnabled"));
-            queries.setValue(31,new NSString("SubscriberMCC"));
-            queries.setValue(32,new NSString("SubscriberMNC"));
-            queries.setValue(33,new NSString("DataRoaming"));
-            queries.setValue(34,new NSString("VoiceRomaing"));
-            queries.setValue(35,new NSString("JailbreakDetected"));
+            queries.setValue(12,new NSString("MEID"));
+            queries.setValue(13,new NSString("ModemFirmwareVersion"));
+//          for network information
+            queries.setValue(14,new NSString("ICCID"));
+            queries.setValue(15,new NSString("BluetoothMAC"));
+            queries.setValue(16,new NSString("WiFiMAC"));
+            queries.setValue(17,new NSString("CurrentCarrierNetwork"));
+            queries.setValue(18,new NSString("SIMCarrierNetwork"));
+            queries.setValue(19,new NSString("SubscriberCarrier-Network"));
+            queries.setValue(20,new NSString("CarrierSettingsVersion"));
+            queries.setValue(21,new NSString("PhoneNumber"));
+            queries.setValue(22,new NSString("VoiceRoamingEnabled"));
+            queries.setValue(23,new NSString("DataRoamingEnabled"));
+            queries.setValue(24,new NSString("isRoaming"));
+            queries.setValue(25,new NSString("SubscriberMCC"));
+            queries.setValue(26,new NSString("SubscriberMNC"));
+            queries.setValue(27,new NSString("SIMMCC"));
+            queries.setValue(28,new NSString("SIMMNC"));
+            queries.setValue(29,new NSString("CurrentMCC"));
+            queries.setValue(30,new NSString("CurrentMNC"));
+
             getCommand().put("Queries",queries);
         }
     }

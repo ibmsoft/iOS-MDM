@@ -540,6 +540,9 @@
       <module fileurl="file://$PROJECT_DIR$/core/MDM-core.iml" filepath="$PROJECT_DIR$/core/MDM-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/payload/MDM-payload.iml" filepath="$PROJECT_DIR$/payload/MDM-payload.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/MDM-web.iml" filepath="$PROJECT_DIR$/web/MDM-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.apns/com.wso2mobile.ios.apns.iml" filepath="$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.apns/com.wso2mobile.ios.apns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/com.wso2mobile.ios.mdm.iml" filepath="$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/com.wso2mobile.ios.mdm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm.payload/com.wso2mobile.ios.mdm.payload.iml" filepath="$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm.payload/com.wso2mobile.ios.mdm.payload.iml" />
       <module fileurl="file://$PROJECT_DIR$/plist/plist.iml" filepath="$PROJECT_DIR$/plist/plist.iml" />
     </modules>
   </component>
@@ -548,9 +551,41 @@
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/payload" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
+    <library name="lib">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm.payload/lib/commons-codec-1.8.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm.payload/lib/commons-io-2.4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="lib1">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.apns/lib/commons-codec-1.8.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.apns/lib/apns-0.2.4-SNAPSHOT-jar-with-dependencies.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="lib2">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/slf4j-api-1.7.5.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/bcmail-jdk15on-149.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/gson-2.2.4.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/commons-httpclient_3.1.0.wso2v2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/jscep-2.0.2.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/bcprov-jdk15on-149.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/commons-io-2.4.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/bcprov-ext-jdk15on-149.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/commons-lang-2.6.jar!/" />
+        <root url="jar://$PROJECT_DIR$/../../../MDM/Project/WSO2Mobile/emm_utilities/com.wso2mobile.ios.mdm/lib/bcpkix-jdk15on-149.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Maven: antlr:antlr:2.7.6">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.6/antlr-2.7.6.jar!/" />

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>CommandUUID</key>
+        <string>464c12ef-8ef8-416a-a219-342bc8c7a781</string>
+        <key>ProfileList</key>
+        <array>
+            <dict>
+                <key>HasRemovalPasscode</key>
+                <false/>
+                <key>IsEncrypted</key>
+                <true/>
+                <key>PayloadDescription</key>
+                <string>test</string>
+                <key>PayloadDisplayName</key>
+                <string>Pansoft_S0393</string>
+                <key>PayloadIdentifier</key>
+                <string>com.pansoft.mdm.profile</string>
+                <key>PayloadOrganization</key>
+                <string>1111111</string>
+                <key>PayloadRemovalDisallowed</key>
+                <false/>
+                <key>PayloadUUID</key>
+                <string>0C6C6142-E917-495C-8001-E37F3E2BDD8D</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>SignerCertificates</key>
+                <array>
+                    <data>
+                        MIIDNTCCAh2gAwIBAgIBATALBgkqhkiG9w0BAQswTjFMMEoGA1UEAwxDaVBob25lIENvbmZpZ3VyYXRpb24gVXRpbGl0eSAoREMzNDk2RUMtREJCQS00QjRDLTg4RjUtMEZFRkQwOTc5RTkzKTAeFw0xNDAxMDkwMDU4MDZaFw0xNjAxMDkxMjU4MDZaME4xTDBKBgNVBAMMQ2lQaG9uZSBDb25maWd1cmF0aW9uIFV0aWxpdHkgKERDMzQ5NkVDLURCQkEtNEI0Qy04OEY1LTBGRUZEMDk3OUU5MykwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqOKdzoP94w1KYVonpRxz+9iT0iXSVoKxSteqFbZAQFiqzisHNreyQc6sw75c4dI5NFqdHIRdQesF0WJt4WoNp4y7mskrQQUWNjK8hk/xDGcfZZhdJUEXsC0ioWfmEXW4Y/L37GfnZlRBMwrHC8ywio6JfZjtX1lB2kdcuPQXT+KGzFYt2dgHFC6YUSyUHaPd8XRS+C/fl3WiwJ2RFqDnrTr5c2qb5dyG4v19IGw+aHvMT7CiJAcusiWwSqef4Tl5UWy8llkKeKOdKMjDmeVNI+6PwQptFwjxwHF7eX1mkL0eQheBTrYUdrOVkNfRVo5REDhX1QO7w+a47leJgaMtbAgMBAAGjIDAeMA8GA1UdEwEB/wQFMAMBAf8wCwYDVR0PBAQDAgIEMA0GCSqGSIb3DQEBCwUAA4IBAQA9lZQud5FXEfpVJ5vduo0ebjUSp/UAnyH8oDnIDnTP/ud9ZAcBNtQ55Ya24puS3+GmEGEWwaydeQtcq6E+B8OYrKoVhWq7toBgUvkpM9zADgZsT45iYvhhxE8pktIRZtMgByMCM1w0ziZBpR/mxjfKL4WcLjUobwHDvI5r5mv0/1kAz2Oy+iqyeTxTXBcI897xQKesiMYZ3Nap2zLLmD8X/JhypvjarMy5o0SkTiDGnlVE9QmW0GQ0e1abDI+jqHgP8QkCvRV6PLjl7toz0AupdWYFCaiDgXN7NQPG6PP6iEIobSl2R5dfTDLNijwmodychP3RF1m5lzlCxGTU5erK
+                    </data>
+                </array>
+            </dict>
+        </array>
+        <key>Status</key>
+        <string>Acknowledged</string>
+        <key>UDID</key>
+        <string>c89788765c5398d16ca31bac69e0ccace7f70172</string>
+    </dict>
+</plist>
