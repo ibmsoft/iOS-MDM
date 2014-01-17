@@ -32,4 +32,6 @@ To get started, complete the following steps:
 
     http://appfuse.org/display/APF/AppFuse+QuickStart
 
+7. 如果删除了配置文件，通过mdm安装的应用程序再通过 managedApplicationList 就找不到了。
+
 

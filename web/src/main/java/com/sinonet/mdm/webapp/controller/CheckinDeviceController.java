@@ -128,10 +128,10 @@ public class CheckinDeviceController {
             List allTask = taskManager.find("from Task where status='no' and device.udid = ? ",udid);
             if (allTask.size()>0){
               Task topTask = (Task)allTask.get(0);
-              topTask.setStatus("run");
-              taskManager.save(topTask);
-              response.getWriter().write(new String(topTask.getCommand()));
-              log.debug(topTask);
+                topTask.setStatus("run");
+                taskManager.save(topTask);
+                response.getWriter().write(new String(topTask.getCommand()));
+                log.debug(topTask);
             }else {
                 log.warn("UDID ="+udid+" device's task is not find ");
 

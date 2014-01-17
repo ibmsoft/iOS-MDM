@@ -151,6 +151,11 @@ public class DeviceFormController extends BaseFormController {
 
         taskManager.save(task);
     }
+
+    /**
+     * 只能删除通过MDM安装的可以管控的应用程序。
+     * @param request
+     */
     @ModelAttribute
     @RequestMapping("/removeinstall")
     public void removeCommand(HttpServletRequest request)
